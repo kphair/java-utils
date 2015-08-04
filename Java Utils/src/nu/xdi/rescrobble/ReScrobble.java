@@ -11,13 +11,13 @@ import javax.swing.UIManager;
  */
 public class ReScrobble extends JFrame {
 
-
-	static Rectangle screenSize;
 	static JFrame appFrame;
+	static ReScrobble frame;
+	static Rectangle screenSize;
 	
 	public static void main (String[] args) {
 
-		ReScrobble frame = new ReScrobble();
+		frame = new ReScrobble();
 		
 	}
 	
